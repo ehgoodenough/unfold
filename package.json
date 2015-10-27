@@ -1,0 +1,47 @@
+{
+  "name": "unfold",
+  "version": "0.0.70",
+  "description": "?!",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "license": {
+    "type": "mit",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  "contributors": [
+    "Andrew McPherson <@ehgoodenough>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ehgoodenough/unfold"
+  },
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "raf": "^3.1.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "shortid": "^2.2.2",
+    "vkey": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.29",
+    "babel-loader": "^5.3.2",
+    "beepbeep": "^1.2.0",
+    "browser-sync": "^2.9.11",
+    "bump-webpack-plugin": "^0.1.0",
+    "css-loader": "^0.21.0",
+    "del": "^2.0.2",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "html-loader": "^0.3.0",
+    "image-webpack-loader": "^1.6.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2",
+    "yargs": "^3.29.0"
+  },
+  "scripts": {
+    "build": "node build"
+  }
+}
